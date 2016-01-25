@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Profile = React.createClass({
+export const Profile = React.createClass({
     getInitialState:function(){
         return {current :1};
     },
@@ -26,5 +26,3 @@ const Profile = React.createClass({
         </div>
     }
 });
-
-export default Profile;
